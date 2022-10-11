@@ -1,0 +1,140 @@
+
+
+/*start login*/
+.login-box form {
+    width: 300px;
+    margin: 100px auto;
+}
+.login-box form input {
+    margin-bottom: 10px;
+}
+.login-box form h4 {
+    color: rgb(153, 135, 135);
+}
+.login-box .x.selected{
+    color: #337ab7;
+}
+.login-box .z.selected {
+    color: #5cb85c;
+}
+.login-box h1 {
+    color: rgb(201, 201, 201);
+}
+.login-box h1 span{
+    cursor: pointer;
+}
+.login-box .signup {
+    display: none;
+}
+/*end login*/
+
+
+
+/* start members */
+.form-group {
+    position: relative;
+}
+.show-pass {
+    position: absolute;
+    right: 25px;
+    top: 10px;
+}
+.test {
+    color: rgb(0, 216, 151);
+}
+.main-table tr:first-child td {
+    background-color: #333;
+    color: #fff;
+}
+.main-table .contr {
+    text-align: start;
+    width: fit-content;
+}
+.activate {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+
+/* end members */
+
+/* start category */
+.status div{
+    /* font-size: 18px; */
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+.hidden-vis div {
+    background-color: #f39c12;
+}
+.visible-vis div {
+    background-color: #1abc9c;
+}
+.hidden-comment div {
+    background-color: #e74c3c;
+}
+.visible-comment div {
+    background-color: #3498db;
+}
+.hidden-ads div {
+    background-color: #e74c3c;
+}
+.visible-ads div {
+    background-color: #3498db;
+}
+.ordering button {
+    padding: 3px 7px;
+    margin-right: 5px;
+}
+.ordering .active {
+    background-color: #333;
+}
+
+
+/* end category */
+/* start of items box */
+.item-box {
+    position: relative;
+    background-color: #fff;
+}
+.price-tag {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 35px;
+    padding: 2px 5px;
+    text-align: center;
+    background-color:#2980b9;
+    color: #fff;
+}
+
+
+/* end of items box */
+/* upper bar */
+.upper-bar {
+    padding: 10px;
+    background-color:#fff;
+}
+/* end of upper bar */
+
+
+/* start the-errors */
+
+.the-errors {
+    position: absolute;
+    top: 30%;
+    left: 90px;
+}
+
+/* end the-errors */
+hr {
+    border-top: 1px solid #db2626;
+}
+
+/* start add comment */
+
+
+/* end add comment */

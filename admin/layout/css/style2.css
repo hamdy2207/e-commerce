@@ -1,0 +1,155 @@
+
+
+
+
+
+/*start login*/
+.login {
+    width: 300px;
+    margin: 100px auto;
+}
+.login input {
+    margin-bottom: 10px;
+}
+.login h4 {
+    color: rgb(153, 135, 135);
+}
+/*end login*/
+
+/* start dashboard */
+a {
+    color: #fff;
+}
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.home-stats .stat {
+    font-size: 15px;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+}
+.home-stats .stat span {
+    display: block;
+    font-size: 50px;
+}
+.st-members {
+    background-color: #2ecc71;
+}
+.st-pend {
+    background-color: #2980b9;
+}
+.st-items {
+    background-color: #9b59b6;
+}
+.st-comments {
+    background-color: #f1c40f;
+}
+
+
+.latest {
+    margin-top: 40px;
+}
+.latest-user li{
+    display: flex;
+    justify-content: space-between;
+}
+.latest-item li{
+    display: flex;
+    justify-content: space-between;
+}
+
+.test_3 {
+    color: #3498db;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.latestComments .tst_2 {
+    display: flex;
+    justify-content: space-around;
+}
+.com {
+    position: relative;
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    width: 250px;
+}
+.com::after {
+    position: absolute;
+    content: '';
+    border: 10px solid;
+    border-color: transparent #ddd transparent transparent;
+    top: 10px;
+    left: -20px;
+}
+
+/* end dashboard */
+
+/* start members */
+.form-group {
+    position: relative;
+}
+.show-pass {
+    position: absolute;
+    right: 25px;
+    top: 10px;
+}
+.test {
+    color: rgb(0, 216, 151);
+}
+.main-table tr:first-child td {
+    background-color: #333;
+    color: #fff;
+}
+.main-table .contr {
+    text-align: start;
+    width: fit-content;
+}
+.activate {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+
+/* end members */
+
+/* start category */
+.status div{
+    /* font-size: 18px; */
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+.hidden-vis div {
+    background-color: #f39c12;
+}
+.visible-vis div {
+    background-color: #1abc9c;
+}
+.hidden-comment div {
+    background-color: #e74c3c;
+}
+.visible-comment div {
+    background-color: #3498db;
+}
+.hidden-ads div {
+    background-color: #e74c3c;
+}
+.visible-ads div {
+    background-color: #3498db;
+}
+.ordering button {
+    padding: 3px 7px;
+    margin-right: 5px;
+}
+.ordering .active {
+    background-color: #333;
+}
+
+
+/* end category */
